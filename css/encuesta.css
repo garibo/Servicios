@@ -1,0 +1,49 @@
+@font-face
+{
+	font-family: 'labels';
+	src: url('../fonts/proximanova-regular-webfont.ttf');
+}
+
+label
+{
+	font-family: 'labels';
+}
+
+#contenido
+{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#content-main
+{
+	background-color: #f9f9f9;
+	background-image: url("");
+}
+
+.alert
+{
+	font-size: 1.3em;
+}
+
+.alert:hover
+{
+	cursor: pointer;
+}
+
+.row > *
+{
+	margin-bottom: 13px;
+}
+
+#enviar
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+hr
+{
+	background-color: #dadada;
+}

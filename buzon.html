@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/buzon.css">
+          <title>BUZON DE QUEJAS Y SUGERENCIAS</title>
+    </head>
+    
+    <body  link="#ffffcc" vlink="#ffffcc" alink="#ffffcc">
+        <div id="header">
+            <img src="img/gobierno.png" height="100px" style="margin-left:30px;">   
+                <img src="img/itlac.png" height="100px" align="right" style="margin: 10px 30px">
+                    <div style="margin:-90px 340px;">
+                        <b>
+                            <center>
+		                        <font color="#474747">BUZON DE QUEJAS Y SUGERENCIAS</font>
+		                        <!-- <font size="6px" color="#0B97D3">PRÁCTICAS LABORATORIO 1, 2, 3</font> -->
+		                    </center>
+                        </b> 
+                    </div>
+        </div>
+
+        <div id="sidebar">
+            <div id='cssmenu'>
+                <ul>
+                   <li class='has-sub last'><a href='#'><span>REGISTRAR</span></a>
+                      <ul>
+                         <li><a href='buzon.html'><span>Buzon de quejas</span></a></li>
+                         <li class='last'><hr><a href='encuesta.html'><span>Encuesta de servicios</span></a></li>
+                      </ul>
+                   </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id = "content-main">
+        	
+          <div id="contenido">
+
+
+          <form>
+
+              <div class="row">
+
+              <div class="col-md-6">
+              <select class="form-control input-lg" id="carrera">
+                <option disabled selected>Carrera</option>
+                <option>Ing. Sistemas Computacionales</option>
+                <option>Ing. Gestión Empresarial</option>
+                <option>Ing. Electrónica</option>
+                <option>Ing. Electromecánica</option>
+                <option>Ing. Química</option>
+                <option>Lic. Administración</option>
+                <option>Lic. Contaduría Pública</option>
+              </select>
+            </div>
+
+              <div class="col-md-6">
+              <select class="form-control input-lg" id="semestre">
+                <option disabled selected>Semestre</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+              </select>
+
+              </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+              <input type="text" class="form-control input-lg" placeholder="Telefono" id="telefono" maxlength="12">
+            </div>
+              <div class="col-md-6">
+              <select class="form-control input-lg" id="objetivo">
+                <option disabled selected>Objetivo del escrito</option>
+                <option>Comentario</option>
+                <option>Queja</option>
+                <option>Sugerencia</option>
+              </select>
+              </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control input-lg" placeholder="N° Control" id="ncontrol" maxlength="10">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control input-lg" placeholder="Correo electronico" id="correo" maxlength="100">
+                </div>
+              </div>
+
+              
+              <textarea class="form-control input-lg" rows="6" placeholder="Escribenos tu comentario..." id="comentario" maxlength="600"></textarea>   
+          <!-- modal -->
+
+              <button type="button" class="btn btn-primary btn-lg" id="enviar">Enviar comentario</button>
+              </div>
+              </div>
+          </form>
+          </div>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Comentario enviado exitosamente</h4>
+                </div>
+                <div class="modal-body">
+                  <h1 class="text-center">Tiempo de respuesta</h1>
+                  <p class="text-center">El buzón de quejas y sugerencias es electrónico a través de una cuenta de email@, y se revisa los primeros 15 días de cada mes.</p>
+
+                  <h2 class="text-center">Finalidad</h2>
+                  <p class="text-center">Este procedimiento tienen la finalidad de escuchar la voz del cliente, es decir de cada uno de los estudiantes que emiten algún comentario para fomentar el respeto y la armonía entre la comunidad tecnológica y dar un mejor Servicio Educativo.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- modal -->
+
+        </div>
+             <div id="footer" align="center">
+                 <h4 style="margin-left:20px">SEPTIEMBRE 2013 - LABORATORIOS DEL CENTRO DE COMPUTO</h4>
+            </div>
+    <script type="text/javascript" src="js/lib/jquery.min.js"></script>               
+    <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/buzon.js"></script>
+    </body>
+    
+</html>

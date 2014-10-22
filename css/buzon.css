@@ -1,0 +1,38 @@
+#contenido
+{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.col-md-6
+{
+	margin-bottom: 20px;
+}
+
+#enviar
+{
+	margin-top: 20px;
+}
+
+#content-main
+{
+	background-color: #f9f9f9;
+	background-image: url("");
+}
+
+#recargar
+{
+	margin-top: 7px;
+	margin-right: 7px;
+}
+
+#cerrar
+{
+	margin-top: 7px;
+}
+
+#info
+{
+	margin-top: 4px;
+}
