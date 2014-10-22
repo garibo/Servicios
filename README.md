@@ -1,14 +1,14 @@
 Servicios del laboratorio
 =========================
 
-![image](screenshots/buzon.png)
+![image](screenshoots/buzon.png)
 
-![image](screenshots/captura3.png)
+![image](screenshoots/encuesta.png)
 
-![image](screenshots/captura4.png)
+![image](screenshoots/encuesta-formulario.png)
 
-![image](screenshots/buzon.png)
+![image](screenshoots/registro.png)
 
-![image](screenshots/captura3.png)
+![image](screenshoots/captura.png)
 
 
